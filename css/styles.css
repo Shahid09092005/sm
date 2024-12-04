@@ -7951,7 +7951,13 @@ textarea.form-control-lg {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+  background-image: url('assets/Screenshot 2024-11-28 042902.png');
+  background-size: cover; /* This makes sure the image covers the whole area */
+  background-position: center; /* This centers the image */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  
 }
+
 
 .pt-0 {
   padding-top: 0 !important;
@@ -8179,9 +8185,7 @@ textarea.form-control-lg {
   text-transform: lowercase !important;
 }
 
-.text-uppercase {
-  text-transform: uppercase !important;
-}
+
 
 .text-capitalize {
   text-transform: capitalize !important;

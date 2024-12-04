@@ -600,7 +600,18 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  width: 300px;  /* Set width to 300px */
+  height: 400px; /* Set height to 400px */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
 }
+
+.img-fluid:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker and more spread shadow on hover */
+}
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -11747,5 +11758,23 @@ html {
 }
 #college_name{
   text-decoration: none;
+}
+
+.visit-link a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white; /* White background */
+  color: #333333; /* Dark text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Optional rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.visit-link a:hover {
+  background-color: black; /* Black background on hover */
+  color: white; /* White text on hover */
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker and more spread shadow on hover */
+  transition: background-color 1.0s ease, transform 0.3s, box-shadow 0.3s; /* Ensuring smooth transitions */
 }
 

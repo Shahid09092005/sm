@@ -1,0 +1,40 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text color */
+}
+
+.navbar.dark-mode {
+    background-color: #333; /* Dark navbar background */
+    color: white; /* White text for navbar */
+}
+
+.card.dark-mode {
+    background-color: #2c2c2c; /* Dark background for cards */
+    color: white; /* White text in cards */
+}
+
+/* Dark mode button */
+.btn-outline-dark.dark-mode {
+    color: white;
+    border-color: #fff;
+}
+
+.btn-outline-dark.dark-mode:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Ensure all text is white in dark mode */
+h1, h2, h3, h4, h5, h6, p, a, .small {
+    color: white !important; /* Force white color for headings and text */
+}
+
+/* Dark mode for links */
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #00bfff;
+}
